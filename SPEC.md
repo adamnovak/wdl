@@ -7402,7 +7402,7 @@ Example output:
 
 ```json
 {
-  "test_floor.all_true": true
+  "test_floor.all_true": [true, true]
 }
 ```
 </p>
@@ -7457,7 +7457,7 @@ Example output:
 
 ```json
 {
-  "test_ceil.all_true": true
+  "test_ceil.all_true": [true, true]
 }
 ```
 </p>
@@ -7512,7 +7512,7 @@ Example output:
 
 ```json
 {
-  "test_round.all_true": true
+  "test_round.all_true": [true, true]
 }
 ```
 </p>
