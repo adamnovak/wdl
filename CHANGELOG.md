@@ -17,6 +17,10 @@ Keep the changelog pleasant to read in the text editor:
 + Properly indent blocks.
 -->
 
+version 1.2.1
+---------------------------
++ Fixed unit test examples for `round()`, `floor()`, and `ceil()` to use arrays of `true` as the expected value.
+
 version 1.2.0
 ---------------------------
 
@@ -34,6 +38,7 @@ version 1.2.0
 
 + Added `disks` and `gpu` reserved hints for requesting specific resources.
 
+<<<<<<< HEAD
 + Added `contains_key` function to standard library. [PR 603](https://github.com/openwdl/wdl/pull/603)
 
 + Added exponentiation operator (`**`).
