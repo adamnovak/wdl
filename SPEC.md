@@ -1815,7 +1815,7 @@ struct A {
   String s
 }
 
-Struct B {
+struct B {
   A a_struct
   Int i
 }
