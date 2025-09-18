@@ -4045,6 +4045,7 @@ workflow environment_variable_should_echo {
   output {
     String out = test.out
   }
+}
 ```
 </summary>
 <p>
