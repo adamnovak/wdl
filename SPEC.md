@@ -1604,7 +1604,7 @@ workflow string_to_file {
   File path2 = path1
 
   output {
-    Boolean paths_equal = path1 == path2
+    Boolean paths_equal = path2 == infile
   }
 }
 ```
